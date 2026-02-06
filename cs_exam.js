@@ -4,6 +4,279 @@ const exams = {
 "WSU1":[
 
 
+
+
+
+  
+{
+  q: "In the CIA Triad, which one of the following is not involved?",
+  options: [
+    "Availability",
+    "Confidentiality",
+    "Authenticity",
+    "Integrity"
+  ],
+  answer: 2,
+  explanation: "The CIA triad consists of Confidentiality, Integrity, and Availability. Authenticity is not part of it."
+},
+{
+  q: "If according to the hypothesis the result should be positive, but in fact it is negative, then it is known as ___",
+  options: [
+    "False Negative Hypothesis",
+    "False Positive Hypothesis",
+    "Specialized Hypothesis",
+    "Consistent Hypothesis"
+  ],
+  answer: 1,
+  explanation: "A false positive occurs when the hypothesis predicts a positive result but the actual result is negative."
+},
+{
+  q: "Which of the following function is used to set cookie in PHP?",
+  options: [
+    "createcookie()",
+    "makecookie()",
+    "setcookie()",
+    "None of the above"
+  ],
+  answer: 2,
+  explanation: "PHP uses the setcookie() function to create or modify cookies."
+},
+{
+  q: "Which of the following refers to stealing one's idea or invention of others and use it for their own benefits?",
+  options: [
+    "Piracy",
+    "Plagiarism",
+    "Intellectual property rights",
+    "All of the above"
+  ],
+  answer: 3,
+  explanation: "Piracy, plagiarism, and violation of intellectual property rights all involve misuse of others’ work."
+},
+{
+  q: "Bluetooth is an example of __",
+  options: [
+    "Personal Area Network",
+    "Local Area Network",
+    "Virtual Private Network",
+    "Wide Area Network"
+  ],
+  answer: 0,
+  explanation: "Bluetooth is used for short-range communication, which is classified as a Personal Area Network (PAN)."
+},
+{
+  q: "Which of the following command is a type of Data Definition Language (DDL) command?",
+  options: [
+    "Create",
+    "Update",
+    "Delete",
+    "Merge"
+  ],
+  answer: 0,
+  explanation: "CREATE is a DDL command used to define database structures."
+},
+{
+  q: "An AI agent perceives and acts upon the environment using ___",
+  options: [
+    "Sensors",
+    "Perceiver",
+    "Actuators",
+    "Both a and c"
+  ],
+  answer: 3,
+  explanation: "AI agents use sensors to perceive the environment and actuators to act upon it."
+},
+{
+  q: "Which of the following statement(s) about stack data structure is NOT correct?",
+  options: [
+    "Linked lists are used for implementing stacks",
+    "Top of the stack always contains the new node",
+    "Stack is the FIFO data structure",
+    "Null link is present in the last node at the bottom of the stack"
+  ],
+  answer: 2,
+  explanation: "Stack follows LIFO (Last In First Out), not FIFO."
+},
+{
+  q: "Given a pointer to a node X in a singly linked list (head pointer not given), can we delete node X?",
+  options: [
+    "Possible if X is not last node",
+    "Possible if X is not first node",
+    "Possible if size of linked list is even",
+    "Possible if size of linked list is odd"
+  ],
+  answer: 0,
+  explanation: "A node can be deleted if it is not the last node by copying data from the next node."
+},
+{
+  q: "Which of the following is the task of lexical analysis?",
+  options: [
+    "To build the uniform symbol table",
+    "To initialize the variables",
+    "To organize the variables in a lexical order",
+    "None of the mentioned"
+  ],
+  answer: 0,
+  explanation: "Lexical analysis identifies tokens and builds the symbol table."
+},
+{
+  q: "What is encapsulation in Object Oriented Programming?",
+  options: [
+    "Combining data members and member functions into a single unit",
+    "Combining data members and member functions into a single unit which can operate on any data",
+    "Combining various data members into a single unit",
+    "None of the above"
+  ],
+  answer: 0,
+  explanation: "Encapsulation bundles data and the methods that operate on that data into a single unit (class)."
+},
+
+
+
+ {
+  q: "What will be the output of the following PHP program?\n$a = 15;\nfunction show() {\n  $a = 20;\n  echo \"$a\";\n}\nshow();\necho \"$a\";",
+  options: [
+    "2015",
+    "2020",
+    "1515",
+    "0"
+  ],
+  answer: 0,
+  explanation: "The function prints its local variable (20), then the global variable prints 15, resulting in 2015."
+},
+{
+  q: "The architecture of a database can be viewed as the ____.",
+  options: [
+    "One level",
+    "Two-level",
+    "Three-level",
+    "Four level"
+  ],
+  answer: 2,
+  explanation: "Database architecture follows the three-level architecture: internal, conceptual, and external."
+},
+{
+  q: "If an infinite language is passed to Machine M, the subsidiary which gives a finite solution to the infinite input tape is ______.",
+  options: [
+    "Compiler",
+    "Interpreter",
+    "Loader and Linkers",
+    "None of the mentioned"
+  ],
+  answer: 0,
+  explanation: "A compiler translates the entire program and produces a finite output."
+},
+{
+  q: "First order logic statements contain __.",
+  options: [
+    "Predicate and Preposition",
+    "Subject and an Object",
+    "Predicate and Subject",
+    "None of the above"
+  ],
+  answer: 2,
+  explanation: "First-order logic statements consist of predicates applied to subjects."
+},
+{
+  q: "Which of the following is used to predict the effort as a function of LOC or FP?",
+  options: [
+    "COCOMO",
+    "FP-based estimation",
+    "Both COCOMO and FP-based estimation",
+    "Process-based estimation"
+  ],
+  answer: 2,
+  explanation: "Effort estimation can be done using both COCOMO (LOC-based) and FP-based models."
+},
+{
+  q: "Which among the following does not come under OOP concept?",
+  options: [
+    "Data hiding",
+    "Message passing",
+    "Platform independent",
+    "Data binding"
+  ],
+  answer: 2,
+  explanation: "Platform independence is a language feature, not an OOP concept."
+},
+{
+  q: "Auxiliary memory can be defined as:",
+  options: [
+    "A memory unit that directly communicates with CPU",
+    "A device that provides backup storage",
+    "It is the fastest memory",
+    "All of the above"
+  ],
+  answer: 1,
+  explanation: "Auxiliary memory refers to secondary storage used for backup and long-term data storage."
+},
+{
+  q: "Maximum number of elements in the array declaration int x[5][8]; is",
+  options: [
+    "28",
+    "40",
+    "32",
+    "13"
+  ],
+  answer: 1,
+  explanation: "Total elements = 5 × 8 = 40."
+},
+{
+  q: "The portion of the process scheduler in an operating system that dispatches processes is concerned with ____.",
+  options: [
+    "Assigning ready processes to waiting queue",
+    "Assigning running processes to blocked queue",
+    "Assigning ready processes to CPU",
+    "All of the mentioned"
+  ],
+  answer: 2,
+  explanation: "The dispatcher assigns ready processes to the CPU."
+},
+{
+  q: "What will be the output of the following PHP program?\n$var1 = \"Hello\";\n$var2 = \"World\";\necho $var1, $var2;",
+  options: [
+    "HelloWorld",
+    "Hello, World",
+    "Hello World",
+    "None of the given choices"
+  ],
+  answer: 0,
+  explanation: "PHP echo with comma prints strings without adding space."
+},
+{
+  q: "Which of the following HTML attribute is used to define inline styles?",
+  options: [
+    "Style",
+    "Type",
+    "Class",
+    "None of the above"
+  ],
+  answer: 0,
+  explanation: "The style attribute is used for inline CSS."
+},
+{
+  q: "Function prototyping is used to",
+  options: [
+    "Introduce the function",
+    "Describe type of arguments",
+    "Describe the return value only",
+    "Describe the parameters"
+  ],
+  answer: 0,
+  explanation: "Function prototyping introduces the function before its actual definition."
+},
+{
+  q: "Which one of the following is commonly used to define the overall design of the database?",
+  options: [
+    "Application program",
+    "Data definition language",
+    "Schema",
+    "Data manipulation language"
+  ],
+  answer: 2,
+  explanation: "A database schema defines the overall logical structure of the database."
+},
+ 
+
   
 {
   q: "The recursive versions of binary search use a ___ structure.",
@@ -4340,6 +4613,7 @@ function submitExam() {
     document.getElementById('score-display').style.display = 'block';
     document.getElementById('score-display').textContent = `You scored ${score} out of ${currentExam.length}`;
 }
+
 
 
 
