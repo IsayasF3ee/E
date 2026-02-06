@@ -4,6 +4,414 @@ const exams = {
 "WSU1":[
 
 
+
+
+  {
+    q: "Which one of the following errors will be handled by the operating system?",
+    options: ["lack of paper in printer", "power failure", "connection failure in the network", "all of the mentioned"],
+    answer: 3,
+    explanation: "Operating systems handle all mentioned errors including hardware and network issues."
+  },
+  {
+    q: "Which of the following statements for a simple graph is correct?",
+    options: ["Every path is a trail", "Every trail is a path", "Every trail is a path as well as every path is a trail", "Path and trail have no relation"],
+    answer: 0,
+    explanation: "In graph theory, every path is considered a trail."
+  },
+  {
+    q: "The string function strcpy",
+    options: ["concatenates two strings", "copies one string over the other", "compares two strings", "finds the length over the other"],
+    answer: 1,
+    explanation: "strcpy copies one string into another."
+  },
+  {
+    q: "The agile software development model is built based on __________.",
+    options: ["Linear Development", "Incremental Development", "Iterative Development", "Both Incremental and Iterative Development"],
+    answer: 3,
+    explanation: "Agile combines iterative and incremental approaches for software development."
+  },
+  {
+    q: "What will be the output of the following PHP program?\n<?php $a = 15; function show() { $a = 20; echo \"$a\"; } show(); echo \"$a\"; ?>",
+    options: ["2015", "2020", "1515", "0"],
+    answer: 0,
+    explanation: "PHP functions have their own local scope; show() prints 20, main prints 15 resulting in '2015'."
+  },
+  {
+    q: "The architecture of a database can be viewed as the ________",
+    options: ["One level", "Two-level", "Three-level", "Four level"],
+    answer: 2,
+    explanation: "The three-level architecture includes internal, conceptual, and external levels."
+  },
+  {
+    q: "If an Infinite language is passed to Machine M, the subsidiary which gives a finite solution to the infinite input tape is ______________",
+    options: ["Compiler", "Interpreter", "Loader and Linkers", "None of the mentioned"],
+    answer: 0,
+    explanation: "A compiler converts an infinite input into a finite representation."
+  },
+  {
+    q: "First order logic Statements contains______.",
+    options: ["Predicate and Preposition", "Subject and an Object", "Predicate and Subject", "None of the above"],
+    answer: 2,
+    explanation: "First-order logic statements contain predicates and subjects."
+  },
+  {
+    q: "Which of the following is used to predict the effort as a function of LOC or FP?",
+    options: ["COCOMO", "FP-based estimation", "Both COCOMO and FP-based estimation", "Process-based estimation"],
+    answer: 2,
+    explanation: "Both COCOMO and FP-based estimation can predict software effort."
+  },
+  {
+    q: "Which among the following doesn’t come under OOP concept?",
+    options: ["Data hiding", "Message passing", "Platform independent", "Data binding"],
+    answer: 2,
+    explanation: "Platform independence is not an OOP concept."
+  },
+  {
+    q: "Auxiliary memory can be defined as",
+    options: ["A memory unit that directly communicate with CPU", "A device that provide backup storage", "It is a fastest memory", "All"],
+    answer: 1,
+    explanation: "Auxiliary memory is backup or secondary storage, not directly accessed by CPU."
+  },
+  {
+    q: "Maximum number of elements in the array declaration int x[5][8]; is",
+    options: ["28", "40", "32", "13"],
+    answer: 1,
+    explanation: "5*8 = 40 elements in a 2D array."
+  },
+  {
+    q: "The portion of the process scheduler in an operating system that dispatches processes is concerned with ____________",
+    options: ["assigning ready processes to waiting queue", "assigning running processes to blocked queue", "assigning ready processes to CPU", "all of the mentioned"],
+    answer: 2,
+    explanation: "The dispatcher assigns ready processes to the CPU for execution."
+  },
+  {
+    q: "What will be the output of the following PHP program?\n<?php $var1 = 'Hello'; $var2 = 'World'; echo $var1, $var2; ?>",
+    options: ["HelloWorld", "Hello, World", "Hello World", "None of the given choices"],
+    answer: 0,
+    explanation: "PHP echo concatenates the variables without spaces, resulting in 'HelloWorld'."
+  },
+  {
+    q: "Which of the following HTML attribute is used to define inline styles?",
+    options: ["Style", "Type", "Class", "None of the above"],
+    answer: 0,
+    explanation: "The 'style' attribute defines inline CSS styles."
+  },
+  {
+    q: "Function prototyping is used to",
+    options: ["Introduce the function", "Describe type of arguments", "Describe the return value only", "Describe the parameters"],
+    answer: 0,
+    explanation: "Function prototyping tells the compiler about the function signature before its use."
+  },
+  {
+    q: "Which one of the following is commonly used to define the overall design of the database?",
+    options: ["Application program", "Data definition language", "Schema", "Source code"],
+    answer: 2,
+    explanation: "Schema defines the structure and design of the database."
+  },
+  {
+    q: "In the CIA Triad, which one of the following is not involved?",
+    options: ["Availability", "Confidentiality", "Authenticity", "Integrity"],
+    answer: 2,
+    explanation: "CIA Triad includes Confidentiality, Integrity, and Availability; Authenticity is not included."
+  },
+  {
+    q: "If according to the hypothesis, the result should be positive, but in fact it is negative, then it is known as_______",
+    options: ["False Negative Hypothesis", "False Positive Hypothesis", "Specialized Hypothesis", "Consistent Hypothesis"],
+    answer: 1,
+    explanation: "False positive occurs when the test result is incorrectly positive."
+  },
+  {
+    q: "Which of the following function is used to set cookie in PHP?",
+    options: ["createcookie()", "makecookie()", "setcookie()", "None of the above"],
+    answer: 2,
+    explanation: "The setcookie() function is used to create a cookie in PHP."
+  },
+  {
+    q: "Which of the following refers to stealing one's idea or invention of others and use it for their own benefits?",
+    options: ["Piracy", "Plagiarism", "Intellectual property rights", "All of the above"],
+    answer: 3,
+    explanation: "All listed options refer to forms of unauthorized use of intellectual property."
+  },
+  {
+    q: "Bluetooth is an example of __________",
+    options: ["personal area network", "local area network", "virtual private network", "wide area network"],
+    answer: 0,
+    explanation: "Bluetooth is used for communication in a small personal area network."
+  },
+  {
+    q: "Which of the following command is a type of Data Definition language command?",
+    options: ["Create", "Update", "Delete", "Merge"],
+    answer: 0,
+    explanation: "CREATE is a DDL command to define database structures."
+  },
+  {
+    q: "An AI agent perceives and acts upon the environment using___",
+    options: ["Sensors", "Perceiver", "Actuators", "Both a and c"],
+    answer: 3,
+    explanation: "AI agents use sensors to perceive and actuators to act upon the environment."
+  },
+  {
+    q: "Which of the following statement(s) about stack data structure is/are NOT correct?",
+    options: ["Linked List are used for implementing Stacks", "Top of the Stack always contain the new node", "Stack is the FIFO data structure", "Null link is present in the last node at the bottom of the stack"],
+    answer: 2,
+    explanation: "Stack is LIFO (Last In First Out), not FIFO."
+  },
+  {
+    q: "Given pointer to a node X in a singly linked list. Only one pointer is given, pointer to head node is not given, can we delete the node X from given linked list?",
+    options: ["Possible if X is not last node", "Possible if X is not first node", "Possible if size of linked list is even", "Possible if size of linked list is odd"],
+    answer: 0,
+    explanation: "We can delete a node if it is not the last node by copying the next node's data."
+  },
+  {
+    q: "Which of the following is the task of lexical analysis?",
+    options: ["To build the uniform symbol table", "To initialize the variables", "To organize the variables in a lexical order", "None of the mentioned"],
+    answer: 0,
+    explanation: "Lexical analysis creates a uniform symbol table for further compilation stages."
+  },
+  {
+    q: "What is encapsulation in object oriented Programming?",
+    options: [
+      "It is a way of combining various data members and member functions that operate on those data members into a single unit",
+      "It is a way of combining various data members and member functions into a single unit which can operate on any data",
+      "It is a way of combining various data members into a single unit",
+      "It is a way of combining various member functions into a single unit"
+    ],
+    answer: 0,
+    explanation: "Encapsulation combines data members and the methods that operate on them into a single unit."
+  },
+  {
+    q: "Which of the following is generally used for performing tasks like creating the structure of the relations, deleting relation?",
+    options: ["DML(Data Manipulation Language)", "Query", "Relational Schema", "DDL(Data Definition Language)"],
+    answer: 3,
+    explanation: "DDL commands like CREATE, DROP define or delete database structures."
+  },
+  {
+    q: "Which one of the following data structures are preferred in database-system implementation?",
+    options: ["AVL tree", "B-tree", "B+ -tree", "Splay tree"],
+    answer: 2,
+    explanation: "B+ tree is preferred in database indexing due to efficient range queries."
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  {
+    q: "Which method of the Class.class is used to determine the name of a class represented by the class object as a String?",
+    options: ["getClass()", "intern()", "getName()", "toString()"],
+    answer: 2,
+    explanation: "getName() returns the fully qualified name of the class as a String."
+  },
+  {
+    q: "The __________ model helps in representing the system's dynamic behavior.",
+    options: ["Object Model", "Context Model", "Behavioral Model", "Data Model"],
+    answer: 2,
+    explanation: "The Behavioral Model represents the dynamic behavior of a system."
+  },
+  {
+    q: "Which of the following commands is used to save any transaction permanently into the database?",
+    options: ["Commit", "Rollback", "Savepoint", "None of the above"],
+    answer: 0,
+    explanation: "Commit saves the transaction permanently into the database."
+  },
+  {
+    q: "Which type of shift instruction is used to divide a signed number by two?",
+    options: ["Logical right shift", "Arithmetic right shift", "Logical left shift", "Arithmetic left shift"],
+    answer: 1,
+    explanation: "Arithmetic right shift preserves the sign bit while dividing by two."
+  },
+  {
+    q: "Which of the following words correctly summarizes the importance of software design?",
+    options: ["Quality", "Complexity", "Efficiency", "Accuracy"],
+    answer: 0,
+    explanation: "Quality is the primary factor that software design aims to achieve."
+  },
+  {
+    q: "What is the result of the following Java program?\npublic static synchronized void main(String[] args) throws InterruptedException {\n Thread f = new Thread();\n f.start();\n System.out.print(\"A\");\n f.wait(1000);\n System.out.print(\"B\");\n}",
+    options: [
+      "It prints A and B with a 1000 seconds delay between them",
+      "It only prints A and exits",
+      "It only prints B and exits",
+      "A will be printed, and then an exception is thrown"
+    ],
+    answer: 3,
+    explanation: "Calling wait() on a thread without synchronizing on it causes IllegalMonitorStateException after printing 'A'."
+  },
+  {
+    q: "To obtain a prefix expression, which of the tree traversals is used?",
+    options: ["Level-order traversal", "Pre-order traversal", "Post-order traversal", "In-order traversal"],
+    answer: 1,
+    explanation: "Pre-order traversal of an expression tree produces the prefix expression."
+  },
+  {
+    q: "RR* can be expressed in which of the forms:",
+    options: ["R+", "R-", "R+ U R-", "R"],
+    answer: 0,
+    explanation: "RR* is equivalent to R+ (one or more repetitions of R)."
+  },
+  {
+    q: "Transient operating system code is a code that ____________",
+    options: ["stays in the memory always", "never enters the memory space", "comes and goes as needed", "is not easily accessible"],
+    answer: 2,
+    explanation: "Transient code is loaded into memory when needed and removed afterward."
+  },
+  {
+    q: "The total number of states required to automate the given regular expression (00)*(11)*",
+    options: ["3", "4", "5", "6"],
+    answer: 2,
+    explanation: "The regular expression requires 5 states to accept all strings."
+  },
+  {
+    q: "______________ is a set of one or more attributes taken collectively to uniquely identify a record.",
+    options: ["Primary Key", "Foreign key", "Super key", "Candidate key"],
+    answer: 2,
+    explanation: "A super key is any set of attributes that can uniquely identify a tuple in a relation."
+  },
+  {
+    q: "Which one of the following can be considered as the class of computer threats?",
+    options: ["Dos Attack", "Phishing", "Soliciting", "Both A and C"],
+    answer: 0,
+    explanation: "DOS attack is a type of computer threat; others may not strictly be threats."
+  },
+  {
+    q: "Which of the following is used to display the output in PHP?",
+    options: ["Echo", "Write", "Print", "Both (a) and (c)"],
+    answer: 3,
+    explanation: "Both echo and print can be used to display output in PHP."
+  },
+  {
+    q: "A __________ is a device that forwards packets between networks by processing the routing information included in the packet.",
+    options: ["bridge", "firewall", "router", "hub"],
+    answer: 2,
+    explanation: "A router forwards packets based on IP routing information."
+  },
+  {
+    q: "To access the services of the operating system, the interface is provided by the ___________",
+    options: ["Library", "System calls", "Assembly instructions", "API"],
+    answer: 1,
+    explanation: "System calls provide an interface to OS services."
+  },
+  {
+    q: "What is a database?",
+    options: [
+      "Organized collection of information that cannot be accessed, updated, and managed",
+      "Collection of data or information without organizing",
+      "Organized collection of data or information that can be accessed, updated, and managed",
+      "Organized collection of data that cannot be updated"
+    ],
+    answer: 2,
+    explanation: "A database is an organized collection of data that can be accessed, updated, and managed."
+  },
+  {
+    q: "The PEAS in the task environment is about____________.",
+    options: [
+      "Peer, Environment, Actuators, Sense",
+      "Performance, Environment, Actuators, Sensors",
+      "Perceiving, Environment, Actuators, Sensors",
+      "None of the above"
+    ],
+    answer: 1,
+    explanation: "PEAS stands for Performance measure, Environment, Actuators, Sensors in AI task environments."
+  },
+  {
+    q: "Which of the following is used in the application programs to request data from the database management system?",
+    options: ["Data Manipulation Language", "Data Definition Language", "Data Control Language", "All of the above"],
+    answer: 0,
+    explanation: "DML is used by applications to query or modify data in a database."
+  },
+  {
+    q: "The variables which can be accessed by all of the program modules in a computer program.",
+    options: ["local variable", "parameters", "global variables", "arguments"],
+    answer: 2,
+    explanation: "Global variables are accessible across all modules."
+  },
+  {
+    q: "Which of the following is not a part of 5-tuple finite automata?",
+    options: ["Input alphabet", "Transition function", "Initial State", "Output Alphabet"],
+    answer: 3,
+    explanation: "Output alphabet is not part of the 5-tuple definition of a standard DFA/NFA."
+  },
+  {
+    q: "The minimum number of states required to recognize an octal number divisible by 3 are/is",
+    options: ["1", "3", "5", "7"],
+    answer: 1,
+    explanation: "3 states are needed to track the remainder modulo 3."
+  },
+  {
+    q: "The recursive versions of binary search use a ___ structure.",
+    options: ["Branch and bound", "Dynamic programming", "Divide and conquer", "Simple recursive"],
+    answer: 2,
+    explanation: "Binary search splits the problem in halves recursively; this is divide and conquer."
+  },
+  {
+    q: "In Operating Systems, which of the following is/are CPU scheduling algorithms?",
+    options: ["Priority", "Round Robin", "Shortest Job First", "All of the mentioned"],
+    answer: 3,
+    explanation: "All listed algorithms are CPU scheduling methods."
+  },
+  {
+    q: "A deadlock avoidance algorithm dynamically examines the __________ to ensure that a circular wait condition can never exist.",
+    options: ["Resources", "operating system", "system storage state", "resource allocation state"],
+    answer: 3,
+    explanation: "Deadlock avoidance algorithms track the resource allocation state to prevent circular wait."
+  },
+  {
+    q: "The main memory accommodates ____________",
+    options: ["CPU", "user processes", "operating system", "all of the mentioned"],
+    answer: 2,
+    explanation: "Main memory contains the OS for execution."
+  },
+  {
+    q: "Which feature of OOP indicates code reusability?",
+    options: ["Abstraction", "Polymorphism", "Encapsulation", "Inheritance"],
+    answer: 3,
+    explanation: "Inheritance allows reusing code from existing classes."
+  },
+  {
+    q: "In order to ensure the security of the data/ information, we need to ____________ the data:",
+    options: ["Encrypt", "Decrypt", "Delete", "None of the above"],
+    answer: 0,
+    explanation: "Encrypting data ensures its security."
+  },
+  {
+    q: "Which one of the following is not true?",
+    options: [
+      "Kernel remains in the memory during the entire computer session",
+      "Kernel is made of various modules which can not be loaded in running operating system",
+      "Kernel is the first part of the operating system to load into memory during booting",
+      "Kernel is the program that constitutes the central core of the operating system"
+    ],
+    answer: 1,
+    explanation: "Some kernel modules can be loaded/unloaded dynamically; the statement is false."
+  },
+  {
+    q: "In Wi-Fi Security, which of the following protocol is more used?",
+    options: ["WPA", "WPA2", "WPS", "Both A and C"],
+    answer: 1,
+    explanation: "WPA2 is the most widely used Wi-Fi security protocol."
+  },
+  {
+    q: "If a process fails, most operating system write the error information to a ______",
+    options: ["new file", "another running process", "log file", "none of the mentioned"],
+    answer: 2,
+    explanation: "OS typically writes error info to a log file for debugging and auditing."
+  },
+
+
+
+
+
+
+  
   
 
 {
@@ -4814,6 +5222,7 @@ function submitExam() {
     document.getElementById('score-display').style.display = 'block';
     document.getElementById('score-display').textContent = `You scored ${score} out of ${currentExam.length}`;
 }
+
 
 
 
