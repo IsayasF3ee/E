@@ -1,7 +1,390 @@
 // Exam Data
 const exams = {
 "AU":[
+
+  
+{
+  q: "What is a client-server system in web programming?",
+  options: [
+    "A system where the client and server are the same machine",
+    "A system where the client and server are different machines and communicate over a network",
+    "A system where the client and server are different browsers on the same machine",
+    "A system where the client and server are different web pages on the same website"
   ],
+  answer: 1
+},
+{
+  q: "Which protocol is commonly used for communication between a web client and server?",
+  options: ["HTTP", "FTP", "TCP/IP", "SMTP"],
+  answer: 0
+},
+{
+  q: "Which HTTP method is used to retrieve a resource from a server?",
+  options: ["GET", "POST", "PUT", "DELETE"],
+  answer: 0
+},
+{
+  q: "Which HTTP method is used to send data to a server for processing?",
+  options: ["GET", "POST", "PUT", "DELETE"],
+  answer: 1
+},
+{
+  q: "Which HTTP status code indicates a successful request?",
+  options: ["200", "300", "400", "500"],
+  answer: 0
+},
+{
+  q: "Which HTTP status code indicates that a resource was not found?",
+  options: ["200", "300", "400", "404"],
+  answer: 3
+},
+{
+  q: "What does concurrency mean in a client-server system?",
+  options: [
+    "Server handling multiple clients at the same time",
+    "Client handling multiple servers",
+    "Server handling one client only",
+    "Client handling one request at a time"
+  ],
+  answer: 0
+},
+{
+  q: "What is a race condition?",
+  options: [
+    "Clients competing to connect to a server",
+    "Servers competing to answer requests",
+    "Multiple processes accessing shared resources unpredictably",
+    "Clients sending duplicate requests"
+  ],
+  answer: 2
+},
+{
+  q: "Which technique is commonly used to prevent race conditions?",
+  options: ["Mutex locks", "Spinlocks", "Semaphores", "Message queues"],
+  answer: 0
+},
+{
+  q: "What is a callback function?",
+  options: [
+    "A function called by the server to notify the client",
+    "A function called by the client to request data",
+    "A function handling concurrent requests",
+    "A function synchronizing client and server"
+  ],
+  answer: 0
+},
+{
+  q: "Which protocol supports real-time asynchronous communication?",
+  options: ["HTTP", "FTP", "TCP/IP", "WebSocket"],
+  answer: 3
+},
+{
+  q: "What is long polling?",
+  options: [
+    "Server continuously sends updates",
+    "Client continuously sends requests",
+    "Server holds request until data is available",
+    "Client holds response until server updates"
+  ],
+  answer: 2
+},
+{
+  q: "Which language is commonly used for client-side scripting?",
+  options: ["HTML", "CSS", "JavaScript", "PHP"],
+  answer: 2
+},
+{
+  q: "Which protocol is used for secure client-server communication?",
+  options: ["HTTP", "FTP", "TCP/IP", "HTTPS"],
+  answer: 3
+},
+{
+  q: "What is the role of a load balancer?",
+  options: [
+    "Balance load between clients",
+    "Balance load between servers",
+    "Balance load between client and server",
+    "Balance network protocols"
+  ],
+  answer: 1
+},
+{
+  q: "Which mechanism is commonly used for session management?",
+  options: ["Cookies", "HTML forms", "URL parameters", "Server caching"],
+  answer: 0
+},
+{
+  q: "What does AJAX stand for?",
+  options: [
+    "Advanced Java XML",
+    "Asynchronous Java and XML",
+    "Asynchronous JavaScript and XML",
+    "Advanced JavaScript Exchange"
+  ],
+  answer: 2
+},
+{
+  q: "What is a RESTful API?",
+  options: [
+    "An API for real-time communication",
+    "An API using REST architecture",
+    "An API for server-only communication",
+    "An API for database management"
+  ],
+  answer: 1
+},
+{
+  q: "What is server-side caching?",
+  options: [
+    "Storing client data on the server",
+    "Storing server data on the client",
+    "Storing frequently accessed data in memory",
+    "Using a separate cache server"
+  ],
+  answer: 2
+},
+
+
+  
+
+  {
+    q: "Which CSS property is used to control the space inside the border of an element in a web page?",
+    options: ["color", "font-size", "margin", "padding"],
+    answer: 3
+  },
+  {
+    q: "Which web technology is commonly used for managing the content of information-rich websites?",
+    options: ["HTML", "CSS", "JavaScript", "Content Management System (CMS)"],
+    answer: 3
+  },
+  {
+    q: "What is the purpose of a database in web programming?",
+    options: [
+      "To control the visual appearance of web pages",
+      "To handle server-side processing and database interactions",
+      "To specify the structure and content of web pages",
+      "To add interactivity and dynamic behavior to web pages"
+    ],
+    answer: 1
+  },
+  {
+    q: "Which SQL statement is used to retrieve data from a database?",
+    options: ["INSERT INTO", "UPDATE", "DELETE FROM", "SELECT"],
+    answer: 3
+  },
+  {
+    q: "Which programming language is commonly used for server-side scripting in web programming?",
+    options: ["HTML", "CSS", "JavaScript", "PHP"],
+    answer: 3
+  },
+  {
+    q: "Which HTML form element is used to create a text input field?",
+    options: [
+      "<input type='text'>",
+      "<input type='checkbox'>",
+      "<input type='radio'>",
+      "<input type='submit'>"
+    ],
+    answer: 0
+  },
+  {
+    q: "Which HTML form element is used to create a checkbox?",
+    options: [
+      "<input type='text'>",
+      "<input type='checkbox'>",
+      "<input type='radio'>",
+      "<input type='submit'>"
+    ],
+    answer: 1
+  },
+  {
+    q: "Which HTML form element is used to create a radio button?",
+    options: [
+      "<input type='text'>",
+      "<input type='checkbox'>",
+      "<input type='radio'>",
+      "<input type='submit'>"
+    ],
+    answer: 2
+  },
+  {
+    q: "Which HTML form element is used to create a button that submits a form?",
+    options: [
+      "<input type='text'>",
+      "<input type='checkbox'>",
+      "<input type='radio'>",
+      "<input type='submit'>"
+    ],
+    answer: 3
+  },
+  {
+    q: "Which client-side technique is commonly used to validate form input before submitting it to the server?",
+    options: ["HTML", "CSS", "JavaScript", "PHP"],
+    answer: 2
+  }
+
+
+
+
+
+
+  {
+    q: "Which CSS property is used to control the space inside the border of an element in a web page?",
+    options: ["color", "font-size", "margin", "padding"],
+    answer: 3
+  },
+  {
+    q: "Which web technology is commonly used for managing the content of information-rich websites?",
+    options: ["HTML", "CSS", "JavaScript", "Content Management System (CMS)"],
+    answer: 3
+  },
+  {
+    q: "What is the purpose of a database in web programming?",
+    options: [
+      "To control the visual appearance of web pages",
+      "To handle server-side processing and database interactions",
+      "To specify the structure and content of web pages",
+      "To add interactivity and dynamic behavior to web pages"
+    ],
+    answer: 1
+  },
+  {
+    q: "Which SQL statement is used to retrieve data from a database?",
+    options: ["INSERT INTO", "UPDATE", "DELETE FROM", "SELECT"],
+    answer: 3
+  },
+  {
+    q: "Which programming language is commonly used for server-side scripting in web programming?",
+    options: ["HTML", "CSS", "JavaScript", "PHP"],
+    answer: 3
+  },
+  {
+    q: "Which HTML form element is used to create a text input field?",
+    options: [
+      "<input type='text'>",
+      "<input type='checkbox'>",
+      "<input type='radio'>",
+      "<input type='submit'>"
+    ],
+    answer: 0
+  },
+  {
+    q: "Which HTML form element is used to create a checkbox?",
+    options: [
+      "<input type='text'>",
+      "<input type='checkbox'>",
+      "<input type='radio'>",
+      "<input type='submit'>"
+    ],
+    answer: 1
+  },
+  {
+    q: "Which HTML form element is used to create a radio button?",
+    options: [
+      "<input type='text'>",
+      "<input type='checkbox'>",
+      "<input type='radio'>",
+      "<input type='submit'>"
+    ],
+    answer: 2
+  },
+  {
+    q: "Which HTML form element is used to create a button that submits a form?",
+    options: [
+      "<input type='text'>",
+      "<input type='checkbox'>",
+      "<input type='radio'>",
+      "<input type='submit'>"
+    ],
+    answer: 3
+  },
+  {
+    q: "Which client-side technique is commonly used to validate form input before submitting it to the server?",
+    options: ["HTML", "CSS", "JavaScript", "PHP"],
+    answer: 2
+  },
+  {
+    q: "What is a client-server system in web programming?",
+    options: [
+      "A system where the client and server are the same machine",
+      "A system where the client and server are different machines and communicate over a network",
+      "A system where the client and server are different browsers on the same machine",
+      "A system where the client and server are different web pages on the same website"
+    ],
+    answer: 1
+  },
+  {
+    q: "Which protocol is commonly used for communication between a web client and server?",
+    options: ["HTTP", "FTP", "TCP/IP", "SMTP"],
+    answer: 0
+  },
+  {
+    q: "Which HTTP method is used to retrieve a resource from a server?",
+    options: ["GET", "POST", "PUT", "DELETE"],
+    answer: 0
+  },
+  {
+    q: "Which HTTP method is used to send data to a server for processing?",
+    options: ["GET", "POST", "PUT", "DELETE"],
+    answer: 1
+  },
+  {
+    q: "Which HTTP status code indicates a successful request?",
+    options: ["200", "300", "400", "500"],
+    answer: 0
+  },
+  {
+    q: "Which HTTP status code indicates that the requested resource is not found?",
+    options: ["200", "300", "400", "404"],
+    answer: 3
+  },
+  {
+    q: "What is concurrency in client-server systems?",
+    options: [
+      "The ability of the server to handle multiple clients simultaneously",
+      "The ability of the client to handle multiple servers simultaneously",
+      "The ability of the server to handle multiple requests from one client",
+      "The ability of the client to handle multiple requests to one server"
+    ],
+    answer: 0
+  },
+  {
+    q: "What is a race condition in concurrency?",
+    options: [
+      "Clients competing to connect to a server",
+      "Servers competing to respond",
+      "Multiple processes accessing shared resources unpredictably",
+      "Duplicate client requests"
+    ],
+    answer: 2
+  },
+  {
+    q: "Which synchronization technique is commonly used to prevent race conditions?",
+    options: ["Mutex locks", "Spinlocks", "Semaphores", "Message queues"],
+    answer: 0
+  },
+  {
+    q: "What is a callback function in client-server systems?",
+    options: [
+      "A function called by the server to notify the client of completion",
+      "A function called by the client to request operations",
+      "A function to handle concurrency",
+      "A synchronization function"
+    ],
+    answer: 0
+  }
+
+
+
+
+  
+  ],
+
+
+
+
+
+
 
 
   
@@ -5684,6 +6067,7 @@ function submitExam() {
     document.getElementById('score-display').style.display = 'block';
     document.getElementById('score-display').textContent = `You scored ${score} out of ${currentExam.length}`;
 }
+
 
 
 
